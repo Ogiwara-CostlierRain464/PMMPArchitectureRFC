@@ -1,0 +1,14 @@
+{
+  "name": "ogiwara/sample",
+  "description": "description_text",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "ogiwara"
+    }
+  ],
+  "require": {
+    "poggit/plugin-miner": "dev-master",
+    "sekjun9878/makeplugin": "v1.0.0"
+  }
+}
