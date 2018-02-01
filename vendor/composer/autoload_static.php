@@ -6,9 +6,25 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit8ab2d86545dd154734c509deda9ed3da
 {
+    public static $prefixLengthsPsr4 = array (
+        's' => 
+        array (
+            'sekjun9878\\MakePlugin\\' => 22,
+        ),
+    );
+
+    public static $prefixDirsPsr4 = array (
+        'sekjun9878\\MakePlugin\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/sekjun9878/makeplugin/src',
+        ),
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixLengthsPsr4 = ComposerStaticInit8ab2d86545dd154734c509deda9ed3da::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit8ab2d86545dd154734c509deda9ed3da::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

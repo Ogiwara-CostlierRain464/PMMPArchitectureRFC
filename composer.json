@@ -8,7 +8,6 @@
     }
   ],
   "require": {
-    "poggit/plugin-miner": "dev-master",
     "sekjun9878/makeplugin": "v1.0.0"
   }
 }

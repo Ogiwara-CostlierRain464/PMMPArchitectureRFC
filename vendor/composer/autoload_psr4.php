@@ -6,4 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'sekjun9878\\MakePlugin\\' => array($vendorDir . '/sekjun9878/makeplugin/src'),
 );

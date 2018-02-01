@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5dfc061b7801bc4a04a9ac1b4d684e41",
+    "packages": [
+        {
+            "name": "sekjun9878/makeplugin",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sekjun9878/makeplugin.git",
+                "reference": "39072b2bcbb345cdb5d25098a76e4bf7b704f2ae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sekjun9878/makeplugin/zipball/39072b2bcbb345cdb5d25098a76e4bf7b704f2ae",
+                "reference": "39072b2bcbb345cdb5d25098a76e4bf7b704f2ae",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "sekjun9878\\MakePlugin\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Yoo",
+                    "email": "michael@yoo.id.au",
+                    "homepage": "https://www.michael.yoo.id.au/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A pure PHP implementation of PocketMine DevTools for packing plugins.",
+            "homepage": "https://github.com/sekjun9878/makeplugin",
+            "keywords": [
+                "Devtools",
+                "plugin",
+                "pocketmine"
+            ],
+            "time": "2014-12-18T14:15:00+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
